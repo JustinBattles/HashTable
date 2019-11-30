@@ -63,7 +63,7 @@ int search(char *f, int index) {
 }
 
 int main() {
-  FILE *fp = fopen("/u1/junk/shakespeare.txt", "r");
+  FILE *fp = fopen("shakespeare.txt", "r");
   int count=0;
   char *longest = strSpace;
   int maxlength = 3;
